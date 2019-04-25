@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzul"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hombremujer"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingrese_su_nombre"
+            android:inputType="text"
+            android:scrollbarStyle="outsideOverlay"
+            android:layout_marginBottom="@dimen/fab_margin"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEdad">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingrese_su_edad"
+            android:inputType="number"
+            android:layout_marginBottom="@dimen/fab_margin"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPaisOrigen">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingrese_su_pa_s_de_origen"
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/fab_margin"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProfesion">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingrese_su_profesi_n"
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/fab_margin"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGenero">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingrese_su_genero"
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/fab_margin"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
